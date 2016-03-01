@@ -13,6 +13,9 @@
 		C4A7A0861C80D98800F0287B /* spotify_clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4A7A0841C80D98800F0287B /* spotify_clone.xcdatamodeld */; };
 		C4A7A0881C80D98800F0287B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A7A0871C80D98800F0287B /* Assets.xcassets */; };
 		C4A7A08B1C80D98800F0287B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A7A0891C80D98800F0287B /* LaunchScreen.storyboard */; };
+		C4A7A0931C80DEEE00F0287B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A7A0921C80DEEE00F0287B /* Player.swift */; };
+		C4A7A0951C8124F600F0287B /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A7A0941C8124F600F0287B /* song.swift */; };
+		C4A7A0971C840E3D00F0287B /* SongsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A7A0961C840E3D00F0287B /* SongsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C4A7A0871C80D98800F0287B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4A7A08A1C80D98800F0287B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4A7A08C1C80D98800F0287B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A7A0921C80DEEE00F0287B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C4A7A0941C8124F600F0287B /* song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
+		C4A7A0961C840E3D00F0287B /* SongsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,11 @@
 		C4A7A07C1C80D98800F0287B /* spotify-clone */ = {
 			isa = PBXGroup;
 			children = (
+				C4A7A0961C840E3D00F0287B /* SongsTableViewCell.swift */,
+				C4A7A0921C80DEEE00F0287B /* Player.swift */,
 				C4A7A07D1C80D98800F0287B /* AppDelegate.swift */,
 				C4A7A07F1C80D98800F0287B /* ViewController.swift */,
+				C4A7A0941C8124F600F0287B /* song.swift */,
 				C4A7A0811C80D98800F0287B /* Main.storyboard */,
 				C4A7A0871C80D98800F0287B /* Assets.xcassets */,
 				C4A7A0891C80D98800F0287B /* LaunchScreen.storyboard */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A7A0971C840E3D00F0287B /* SongsTableViewCell.swift in Sources */,
+				C4A7A0951C8124F600F0287B /* song.swift in Sources */,
+				C4A7A0931C80DEEE00F0287B /* Player.swift in Sources */,
 				C4A7A0801C80D98800F0287B /* ViewController.swift in Sources */,
 				C4A7A07E1C80D98800F0287B /* AppDelegate.swift in Sources */,
 				C4A7A0861C80D98800F0287B /* spotify_clone.xcdatamodeld in Sources */,
@@ -252,6 +264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "spotify-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.ronaldhunter.spotify-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "spotify-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.ronaldhunter.spotify-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +302,7 @@
 				C4A7A0911C80D98800F0287B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
