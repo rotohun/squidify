@@ -71,7 +71,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        player.playStream("http://ec2-54-172-186-102.compute-1.amazonaws.com/" + songs[indexPath.row].cleanURL())
+        player.playStream("Your Api Goes here" + songs[indexPath.row].cleanURL())
         changePlayButton()
     }
     
