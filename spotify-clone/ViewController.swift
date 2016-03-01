@@ -166,7 +166,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func retrieveSongs (){
         
         // Url
-        let url = NSURL(string: "http://ec2-54-172-186-102.compute-1.amazonaws.com/getmusic.php")
+        let url = NSURL(string: "You database api goes here")
         
         //Backend Thred
         
